@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD59156cd6c36c5410bf61b0b95bdcaf21</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>7cbca3a40b64141057d8482393673a63</scope_name>
+        <serialized_content>{"FlowDesigner:FD59156cd6c36c5410bf61b0b95bdcaf21":{"$COCollectionField":[{"Tag":{"ResourceArn":"String","ResourceArn.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ResourceArn\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"1d3bfa01-0cf5-4f25-87ba-88d7b45992e3\"}"},"Tags":{"member":[{"$1216_member":{"Value":"String","Value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"94a3bb91-6037-413b-bf3b-a5d1ae658330\"}"},"Key":"String","Key.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Key\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"6b9ce2d6-3d20-4e90-9ce8-d34bcaff69e0\"}"}}}],"member.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Member\",\"mandatory\":\"true\",\"child_name\":\"member\",\"uiUniqueId\":\"d86d2cf8-8967-48a1-b6dc-4ea8a5190e90\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"member\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"7105e7bb-927d-439c-9e0b-65074b6bebcb\"}"}},"Tags.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Tags\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"d2709b81-9f30-403c-a16c-256702995089\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"25ebc5f5-ec12-4167-b60f-98cdd08b3b9b\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Tags\",\"mandatory\":\"false\",\"child_name\":\"Tag\",\"uiUniqueId\":\"1fb1ba4d-a18a-49bf-ab3c-7f1ae53cd7ba\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD59156cd6c36c5410bf61b0b95bdcaf21\",\"child_label\":\"Tag\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"79ce4d77-a12f-475e-88a7-3dd69cf35a0c\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"918c6377-c0a1-4e54-8381-fd9d602cc454\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD59156cd6c36c5410bf61b0b95bdcaf21.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"25ebc5f5-ec12-4167-b60f-98cdd08b3b9b\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Tags\",\"mandatory\":\"false\",\"child_name\":\"Tag\",\"uiUniqueId\":\"1fb1ba4d-a18a-49bf-ab3c-7f1ae53cd7ba\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD59156cd6c36c5410bf61b0b95bdcaf21\",\"child_label\":\"Tag\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"79ce4d77-a12f-475e-88a7-3dd69cf35a0c\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"918c6377-c0a1-4e54-8381-fd9d602cc454\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-05 06:09:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d156cd60b6c541057d8482393673a21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD59156cd6c36c5410bf61b0b95bdcaf21</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWS Elastic Load Balancing" source="sn_aws_elastic_loa">7cbca3a40b64141057d8482393673a63</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS Elastic Load Balancing">7cbca3a40b64141057d8482393673a63</sys_scope>
+        <sys_update_name>sys_complex_object_1d156cd60b6c541057d8482393673a21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-05 06:09:21</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

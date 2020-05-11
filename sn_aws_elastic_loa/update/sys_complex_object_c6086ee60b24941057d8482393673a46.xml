@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD06086ee6a1249410691bcb27c830cd46</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>7cbca3a40b64141057d8482393673a63</scope_name>
+        <serialized_content>{"FlowDesigner:FD06086ee6a1249410691bcb27c830cd46":{"TargetGroupArn":"String","TargetGroupArn.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Target Group ARN\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"},"HealthCheckIntervalSeconds":"String","HealthCheckIntervalSeconds.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Health Check Interval Seconds\",\"mandatory\":\"true\",\"order\":\"7\",\"max_length\":\"0\"}"},"VpcId":"String","VpcId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vpc ID\",\"mandatory\":\"true\",\"order\":\"6\",\"max_length\":\"0\"}"},"Port":"String","Port.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Port\",\"mandatory\":\"true\",\"order\":\"4\",\"max_length\":\"0\"}"},"HealthCheckEnabled":"String","HealthCheckEnabled.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Health Check Enabled\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"},"Protocol":"String","Protocol.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Protocol\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\"}"},"HealthCheckTimeoutSeconds":"String","HealthCheckTimeoutSeconds.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Health Check Timeout Seconds\",\"mandatory\":\"true\",\"order\":\"8\",\"max_length\":\"0\"}"},"TargetGroupName":"String","TargetGroupName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Target Group Name\",\"mandatory\":\"true\",\"order\":\"5\",\"max_length\":\"0\"}"}},"FlowDesigner:FD06086ee6a1249410691bcb27c830cd46.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD06086ee6a1249410691bcb27c830cd46\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Target Groups\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"f29c78a9-c834-493f-85fb-f6a36efdfe5c\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-06 10:19:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c6086ee60b24941057d8482393673a46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD06086ee6a1249410691bcb27c830cd46</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWS Elastic Load Balancing" source="sn_aws_elastic_loa">7cbca3a40b64141057d8482393673a63</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS Elastic Load Balancing">7cbca3a40b64141057d8482393673a63</sys_scope>
+        <sys_update_name>sys_complex_object_c6086ee60b24941057d8482393673a46</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-06 10:19:57</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

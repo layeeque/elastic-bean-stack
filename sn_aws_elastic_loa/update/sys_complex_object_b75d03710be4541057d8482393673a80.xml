@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf35d0371b1e45410504c5e11c87a1480</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>7cbca3a40b64141057d8482393673a63</scope_name>
+        <serialized_content>{"FlowDesigner:FDf35d0371b1e45410504c5e11c87a1480":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDf35d0371b1e45410504c5e11c87a1480.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Subnet\",\"mandatory\":\"false\",\"child_name\":\"Subnet\",\"uiUniqueId\":\"3b0c82c8-7f6a-444a-82b9-61d481579e28\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDf35d0371b1e45410504c5e11c87a1480\",\"child_label\":\"Subnet\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"8354c5bc-a2d5-4b4d-bd7c-eb3a5304428c\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 05:07:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b75d03710be4541057d8482393673a80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDf35d0371b1e45410504c5e11c87a1480</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWS Elastic Load Balancing" source="sn_aws_elastic_loa">7cbca3a40b64141057d8482393673a63</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS Elastic Load Balancing">7cbca3a40b64141057d8482393673a63</sys_scope>
+        <sys_update_name>sys_complex_object_b75d03710be4541057d8482393673a80</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 05:07:39</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD5829a6aab62494106d82d4fcf889d354</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>7cbca3a40b64141057d8482393673a63</scope_name>
+        <serialized_content>{"FlowDesigner:FD5829a6aab62494106d82d4fcf889d354":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD5829a6aab62494106d82d4fcf889d354.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Subnet\",\"mandatory\":\"true\",\"child_name\":\"Subnet\",\"uiUniqueId\":\"3b0c82c8-7f6a-444a-82b9-61d481579e28\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD5829a6aab62494106d82d4fcf889d354\",\"child_label\":\"Subnet\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"7a4f1384-1c27-418b-8c23-cc1e8b79e608\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-06 10:24:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1c29a6aa0b24941057d8482393673a54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD5829a6aab62494106d82d4fcf889d354</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWS Elastic Load Balancing" source="sn_aws_elastic_loa">7cbca3a40b64141057d8482393673a63</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS Elastic Load Balancing">7cbca3a40b64141057d8482393673a63</sys_scope>
+        <sys_update_name>sys_complex_object_1c29a6aa0b24941057d8482393673a54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-06 10:24:45</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_aws_elastic_loa.AWSLoadBalancingUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AWSLoadBalancingUtil</name>
+        <script><![CDATA[var AWSLoadBalancingUtil = Class.create();
+AWSLoadBalancingUtil.prototype = {
+    initialize: function() {
+    },
+	createPayload: function(payload, parameter_name) {
+        var filter = "";
+        var subnet = "";
+        var query = [];
+        var query_payload = "";
+        for (var obj in payload) {
+            if (obj == "Attributes.member") {
+                for (var i = 1; i <= payload[obj].length; i++) {
+                    if (payload[obj][i - 1].Key && payload[obj][ i - 1 ].Value) {
+
+                        filter += obj + "." + i + ".Key=" + payload[
+                                obj][i - 1].Key + "&" +
+                            obj +
+                            "." + i + ".Value=" + payload[obj][i - 1]
+                            .Value + (payload[obj]
+                                .length > i ? "&" : "");
+                    }
+                }
+                if (filter)
+                    query.push(filter);
+            } 
+			else if (obj == "Tags.member") {
+                 for ( i = 1; i <= payload[obj].length; i++) {
+                    if (payload[obj][i - 1].Key && payload[obj][ i - 1 ].Value) {
+
+                        filter += obj + "." + i + ".Key=" + payload[
+                                obj][i - 1].Key + "&" +
+                            obj +
+                            "." + i + ".Value=" + payload[obj][i - 1]
+                            .Value + (payload[obj]
+                                .length > i ? "&" : "");
+                    }
+                }
+                if (filter)
+                    query.push(filter);
+            } 
+			else if(obj == "Targets.member"){
+                var query_param = "";
+                for (var j = 1; j <= payload[obj].length; j++) {
+                    if (payload[obj][j - 1])
+                        query_param += obj + "." + j + ".Id=" + payload[
+                            obj][j - 1] + (payload[obj]
+                            .length > j ?
+                            "&" : "");
+                }
+                if (query_param) query.push(query_param);
+            }
+		else {
+                  query_param = "";
+                for ( j = 1; j <= payload[obj].length; j++) {
+                    if (payload[obj][j - 1])
+                        query_param += obj + "." + j + "=" + payload[
+                            obj][j - 1] + (payload[obj]
+                            .length > j ?
+                            "&" : "");
+                }
+                if (query_param) query.push(query_param);
+            }
+        }
+        return query.join("&");
+    },
+    type: 'AWSLoadBalancingUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 04:57:23</sys_created_on>
+        <sys_id>fcba4bfd0ba4541057d8482393673a8f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>AWSLoadBalancingUtil</sys_name>
+        <sys_package display_value="AWS Elastic Load Balancing" source="sn_aws_elastic_loa">7cbca3a40b64141057d8482393673a63</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AWS Elastic Load Balancing">7cbca3a40b64141057d8482393673a63</sys_scope>
+        <sys_update_name>sys_script_include_fcba4bfd0ba4541057d8482393673a8f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-05 11:45:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

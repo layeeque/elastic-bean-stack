@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe917cb7dcea45410901dc28f1d6b40b2</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>7cbca3a40b64141057d8482393673a63</scope_name>
+        <serialized_content>{"FlowDesigner:FDe917cb7dcea45410901dc28f1d6b40b2":{"$COCollectionField":[{"attributes":{"max_limit":"String","max_limit.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Max Limit\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"attribute_name":"String","attribute_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Attribute Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Account Attributes\",\"mandatory\":\"false\",\"child_name\":\"attributes\",\"uiUniqueId\":\"881bd21f-3505-47cd-9967-391e807e7cf4\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FDe917cb7dcea45410901dc28f1d6b40b2\",\"child_label\":\"Attributes\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"ae31bbba-cb30-41d3-bf95-7fb82cf529b8\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDe917cb7dcea45410901dc28f1d6b40b2.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Account Attributes\",\"mandatory\":\"false\",\"child_name\":\"attributes\",\"uiUniqueId\":\"881bd21f-3505-47cd-9967-391e807e7cf4\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FDe917cb7dcea45410901dc28f1d6b40b2\",\"child_label\":\"Attributes\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"ae31bbba-cb30-41d3-bf95-7fb82cf529b8\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 04:40:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad17cb7d0ba4541057d8482393673ab2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDe917cb7dcea45410901dc28f1d6b40b2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWS Elastic Load Balancing" source="sn_aws_elastic_loa">7cbca3a40b64141057d8482393673a63</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS Elastic Load Balancing">7cbca3a40b64141057d8482393673a63</sys_scope>
+        <sys_update_name>sys_complex_object_ad17cb7d0ba4541057d8482393673ab2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 04:40:12</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

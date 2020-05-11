@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD88c8266a402494106c671e4c7460f15b</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>7cbca3a40b64141057d8482393673a63</scope_name>
+        <serialized_content>{"FlowDesigner:FD88c8266a402494106c671e4c7460f15b":{"$COCollectionField":[{"SSL_Policy":{"Name":"String","Name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Policy Name\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"15f4449e-ed36-4665-9836-f8c24803ab7b\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"d206bde2-8e0d-4239-8d41-028917b2b3e2\",\"default_value\":\"\",\"label\":\"SSL Policies\",\"mandatory\":\"false\",\"child_name\":\"SSL_Policy\",\"uiUniqueId\":\"2aefb61b-612c-46bf-b9b6-7676b953a1b5\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD88c8266a402494106c671e4c7460f15b\",\"child_label\":\"SSL Policy\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"3ae7f851-6bc2-47ac-a142-032bc4c11d3a\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"6680fb0f-eb60-40f3-a878-7546292b3a97\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD88c8266a402494106c671e4c7460f15b.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"d206bde2-8e0d-4239-8d41-028917b2b3e2\",\"default_value\":\"\",\"label\":\"SSL Policies\",\"mandatory\":\"false\",\"child_name\":\"SSL_Policy\",\"uiUniqueId\":\"2aefb61b-612c-46bf-b9b6-7676b953a1b5\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD88c8266a402494106c671e4c7460f15b\",\"child_label\":\"SSL Policy\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"3ae7f851-6bc2-47ac-a142-032bc4c11d3a\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"6680fb0f-eb60-40f3-a878-7546292b3a97\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-06 10:23:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4cc8266a0b24941057d8482393673a5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD88c8266a402494106c671e4c7460f15b</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWS Elastic Load Balancing" source="sn_aws_elastic_loa">7cbca3a40b64141057d8482393673a63</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS Elastic Load Balancing">7cbca3a40b64141057d8482393673a63</sys_scope>
+        <sys_update_name>sys_complex_object_4cc8266a0b24941057d8482393673a5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-06 10:23:05</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

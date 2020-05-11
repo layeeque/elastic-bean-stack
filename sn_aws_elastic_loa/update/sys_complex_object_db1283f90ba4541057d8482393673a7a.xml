@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1b1283f972a4541001a95c2bd7339c7a</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>7cbca3a40b64141057d8482393673a63</scope_name>
+        <serialized_content>{"FlowDesigner:FD1b1283f972a4541001a95c2bd7339c7a":{"$COCollectionField":[{"ssl_policy":{"ssl_policy_name":"String","ssl_policy_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"SSL Policy Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"SSL Policies\",\"mandatory\":\"false\",\"child_name\":\"ssl_policy\",\"uiUniqueId\":\"2aefb61b-612c-46bf-b9b6-7676b953a1b5\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FD1b1283f972a4541001a95c2bd7339c7a\",\"child_label\":\"SSL Policy\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"d4c2261d-557f-46a1-ae49-18cec9c5d464\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD1b1283f972a4541001a95c2bd7339c7a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"SSL Policies\",\"mandatory\":\"false\",\"child_name\":\"ssl_policy\",\"uiUniqueId\":\"2aefb61b-612c-46bf-b9b6-7676b953a1b5\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FD1b1283f972a4541001a95c2bd7339c7a\",\"child_label\":\"SSL Policy\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"d4c2261d-557f-46a1-ae49-18cec9c5d464\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-04 04:18:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db1283f90ba4541057d8482393673a7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD1b1283f972a4541001a95c2bd7339c7a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AWS Elastic Load Balancing" source="sn_aws_elastic_loa">7cbca3a40b64141057d8482393673a63</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS Elastic Load Balancing">7cbca3a40b64141057d8482393673a63</sys_scope>
+        <sys_update_name>sys_complex_object_db1283f90ba4541057d8482393673a7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-04 04:18:28</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

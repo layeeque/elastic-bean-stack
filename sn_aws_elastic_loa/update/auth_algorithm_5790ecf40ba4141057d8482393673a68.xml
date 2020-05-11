@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="auth_algorithm">
+    <auth_algorithm action="INSERT_OR_UPDATE">
+        <agent_script/>
+        <algorithm>AWSV4Signing</algorithm>
+        <description>Custom Authentication for AWS Elastic Load Balancing </description>
+        <glide_script display_value="RequestAuthAmazonS4SignatureLoadBalancing">06dfd8f40ba4141057d8482393673a4d</glide_script>
+        <name>AmazonElasticLoadBalancingAuthAlgo</name>
+        <sys_class_name>auth_algorithm</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-30 13:59:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5790ecf40ba4141057d8482393673a68</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>AmazonElasticLoadBalancingAuthAlgo</sys_name>
+        <sys_package display_value="AWS Elastic Load Balancing" source="sn_aws_elastic_loa">7cbca3a40b64141057d8482393673a63</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AWS Elastic Load Balancing">7cbca3a40b64141057d8482393673a63</sys_scope>
+        <sys_update_name>auth_algorithm_5790ecf40ba4141057d8482393673a68</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-30 15:59:36</sys_updated_on>
+    </auth_algorithm>
+    <sys_translated_text action="delete_multiple" query="documentkey=5790ecf40ba4141057d8482393673a68"/>
+</record_update>
